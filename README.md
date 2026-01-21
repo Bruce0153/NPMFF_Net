@@ -39,7 +39,47 @@ To address this, the paper proposes **NPMFF‑Net**, a **non‑parametric, train
 
 Recommended Python version: **3.8+**
 
-```bash
-git clone https://github.com/你的用户名/你的仓库名.git
-cd 你的仓库名
-pip install -r requirements.txt
+## 🚀 Quick Start
+
+
+### 🔹 Classification Example
+
+
+### 🔹 Segmentation Example
+
+---
+
+## 📈 Results
+
+| Dataset | Task | Metric | Performance |
+|---------|------|--------|-------------|
+| ModelNet40 | Classification | Overall Accuracy | *e.g., 90.0%* |
+| ShapeNetPart | Segmentation | mIoU | *e.g., 73.1%* |
+
+> These results are achieved **without any training**, demonstrating the potential of training‑free methods. ([ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0950705125015680))
+
+---
+
+## 📚 Citation
+
+If you use this code in your work, please cite:
+
+```
+@article{zeng2025npmffnet,
+  title={NPMFF‑Net: A training‑free unified framework for point cloud classification and segmentation},
+  author={Zeng, Hualong and Zhu, Haijiang and Yu, Huaiyuan and Liu, Mengting and An, Ning},
+  journal={Knowledge‑Based Systems},
+  volume={330},
+  pages={114529},
+  year={2025},
+  publisher={Elsevier}
+}
+```
+
+---
+
+## 💬 Contact
+
+Developed by Hualong Zeng  
+📧 Email: 2024200768@buct.edu.cn
+🌐 GitHub: https://github.com/Bruce0153
